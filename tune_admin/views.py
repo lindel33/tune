@@ -10,14 +10,11 @@ from .models import Product, Category, SeriesCategory
 from cost_models.models import DetailModel
 
 
-TOKEN = '5239855839:AAG6A81Vv1BjQr1HnGtIJHxQ1rbKSc3QBs4'
-<<<<<<< HEAD
+TOKEN = '5376806714:AAFzE6HW2XfZl_AlvzHKO2vsbcfsT6Eg3k8'
+
 URL_BITRIX = 'https://im.bitrix.info/imwebhook/eh/6c529968ec581a32c38753edca1c926a1645891257/'
 
-=======
 
-URL_BITRIX = 'https://im.bitrix.info/imwebhook/eh/6c529968ec581a32c38753edca1c926a164589125227/'
->>>>>>> 7cfad682a4aefd882fc86159539124b16ef59a02
 client = telebot.TeleBot(TOKEN, threaded=False)
 menu_support = ['📱 iPhone', '📲 iPad', '💻 MacBook',
                 '🎧 AirPods', '⌚ Watch',
