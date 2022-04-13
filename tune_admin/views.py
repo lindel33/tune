@@ -12,7 +12,7 @@ from cost_models.models import DetailModel
 
 TOKEN = '5376806714:AAFzE6HW2XfZl_AlvzHKO2vsbcfsT6Eg3k8'
 
-URL_BITRIX = 'https://im.bitrix.info/imwebhook/eh/6c529968ec581a32c38753edca1c926a1645891257/'
+URL_BITRIX = 'https://im.bitrix.info/imwebhook/eh/6c529968ec581a32c38753edca1c926a1645891257asdads/'
 
 
 client = telebot.TeleBot(TOKEN, threaded=False)
